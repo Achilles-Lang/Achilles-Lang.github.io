@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Archives | Hexo</title>
+    <title>Archives | Achilles</title>
     <meta name="author" content="Achilles" />
-    <meta name="description" content="" />
+    <meta name="description" content="Achilles寄存处" />
     <meta name="keywords" content="" />
     <meta
         name="viewport"
@@ -59,7 +59,7 @@
         <div id="menu" :class="{ hidden: hiddenMenu, 'menu-color': menuColor}">
     <nav id="desktop-menu">
         <a class="title" href="/">
-            <span>HEXO</span>
+            <span>ACHILLES</span>
         </a>
         
         <a href="/">
@@ -91,7 +91,7 @@
     <nav id="mobile-menu">
         <div class="title" @click="showMenuItems = !showMenuItems">
             <i class="fa-solid fa-bars fa-fw"></i>
-            <span>&emsp;HEXO</span>
+            <span>&emsp;ACHILLES</span>
         </div>
         <transition name="slide">
             <div class="items" v-show="showMenuItems">
@@ -169,6 +169,20 @@
             </div>
         </div>
         
+        <div class="timeline" data-title="thisismyfirstblog">
+            <div class="timeline-tail"></div>
+            <div class="timeline-content">
+                <div class="item-time">2025/2/6</div>
+                <a href="/2025/02/06/This-is-my-first-blog/">
+                    <h3>This is my first blog</h3>
+                </a>
+                <div class="info">
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
     </div>
 </div>
 
@@ -176,7 +190,7 @@
     <div id="footer-wrap">
         <div>
             &copy;
-            2022 - 2025 Hexo
+            2022 - 2025 Achilles
             <span id="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
